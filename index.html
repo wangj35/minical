@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Index</title>
+
+    <!-- Bootstrap -->
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/index.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <div class="container">
+
+      <h1> minical </h1>
+
+      <div class="create">
+
+        <h1> Create a Calendar</h1>
+        <form>
+          Calendar name: <input type="text" id="calName"></br> 
+
+          Month: <input type="month" id="calMonth" value=""></br>
+
+          Events: </br>
+          <div class="events">
+            Event name: <input type="text"> Date: <input type="date" value=""> 
+            <button type="button" class="btn btn-default btn-xs add">
+              <span class="glyphicon glyphicon-plus"></span>
+            </button></br>
+          </div>
+
+
+          </br>
+
+          <input type="button" value="Save Draft">
+          <input type="submit" value="Create">
+
+        </form>
+
+      </div>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js" ></script>
+  </body>
+</html>

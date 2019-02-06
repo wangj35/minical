@@ -1,0 +1,67 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background-color: #e3d2f7;
+}
+
+.create {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: white;
+}
+/*.create h1,
+.create .h1 {
+  color: inherit;
+}
+.create p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.create > hr {
+  border-top-color: #d5d5d5;
+}*/
+
+.container .create,
+.container-fluid .create {
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 15px;
+}
+.create .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .create {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .create,
+  .container-fluid .create {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+/*  .create h1,
+  .create .h1 {
+    font-size: 63px;
+  }*/
+}
+
+
+
+.events {
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-right: 20px;
+  color: inherit;
+  background-color: #dedbe0;
+}
+
+.add {
+  border-radius: 50%;
+}
